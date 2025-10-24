@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
- "scripts": {
+  "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js"
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Sahithi-003/MVP_TICKETING_BE#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "mysql2": "^3.15.3",
